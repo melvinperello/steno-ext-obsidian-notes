@@ -1,0 +1,17 @@
+# Secret & local override configurations
+secured.config.json
+*.local.json
+
+# Bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments & builds
+.venv/
+dist/
+build/
+*.egg-info/

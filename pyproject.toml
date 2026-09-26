@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "steno-svc-obsidian-notes"
+version = "0.1.0"
+description = "smolagents Drafter-Editor meeting notes generator extension for steno-svc"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "smolagents>=1.0.0",
+    "openai>=1.0.0",
+    "pytest>=8.0.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

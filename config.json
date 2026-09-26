@@ -1,0 +1,7 @@
+{
+  "enabled": true,
+  "obsidian_output_dir": "%USERPROFILE%\\steno-svc\\notes",
+  "llm_base_url": "https://api.openai.com/v1",
+  "llm_model": "gpt-5.6-terra",
+  "llm_api_key": ""
+}
